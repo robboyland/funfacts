@@ -13,6 +13,8 @@
 		547642011B038FB900C9D6DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547642001B038FB900C9D6DA /* Images.xcassets */; };
 		547642041B038FB900C9D6DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547642021B038FB900C9D6DA /* LaunchScreen.xib */; };
 		547642101B038FB900C9D6DA /* Fun_FactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5476420F1B038FB900C9D6DA /* Fun_FactsTests.swift */; };
+		5476421A1B039F8400C9D6DA /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547642191B039F8400C9D6DA /* FactBook.swift */; };
+		5476421C1B03B11900C9D6DA /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5476421B1B03B11900C9D6DA /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		547642091B038FB900C9D6DA /* Fun FactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun FactsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5476420E1B038FB900C9D6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5476420F1B038FB900C9D6DA /* Fun_FactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_FactsTests.swift; sourceTree = "<group>"; };
+		547642191B039F8400C9D6DA /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		5476421B1B03B11900C9D6DA /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				547641F91B038FB900C9D6DA /* AppDelegate.swift */,
+				547642191B039F8400C9D6DA /* FactBook.swift */,
 				547641FB1B038FB900C9D6DA /* ViewController.swift */,
 				547641FD1B038FB900C9D6DA /* Main.storyboard */,
 				547642001B038FB900C9D6DA /* Images.xcassets */,
 				547642021B038FB900C9D6DA /* LaunchScreen.xib */,
 				547641F71B038FB900C9D6DA /* Supporting Files */,
+				5476421B1B03B11900C9D6DA /* ColorWheel.swift */,
 			);
 			path = "Fun Facts";
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5476421A1B039F8400C9D6DA /* FactBook.swift in Sources */,
 				547641FC1B038FB900C9D6DA /* ViewController.swift in Sources */,
 				547641FA1B038FB900C9D6DA /* AppDelegate.swift in Sources */,
+				5476421C1B03B11900C9D6DA /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
